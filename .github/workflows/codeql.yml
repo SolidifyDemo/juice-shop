@@ -14,12 +14,9 @@ name: "CodeQL Advanced"
 on:
   push:
     branches: [ "master" ]
-    paths-ignore:
-      - 'data/static/codefixes/**/*.ts'
   pull_request:
     branches: [ "master" ]
-    paths-ignore:
-      - 'data/static/codefixes/**/*.ts'
+
   
 jobs:
   analyze:
